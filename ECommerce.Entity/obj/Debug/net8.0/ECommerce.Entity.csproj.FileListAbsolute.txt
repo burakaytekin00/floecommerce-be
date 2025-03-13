@@ -1,0 +1,60 @@
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.AssemblyInfoInputs.cache
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.AssemblyInfo.cs
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Entity.deps.json
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Entity.dll
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Entity.pdb
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Core.dll
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Core.pdb
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.csproj.AssemblyReference.cache
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerc.AF4C100A.Up2Date
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.dll
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\refint\ECommerce.Entity.dll
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.pdb
+C:\Users\ahmet.gokdemir\Desktop\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ref\ECommerce.Entity.dll
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Entity.deps.json
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Entity.dll
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Entity.pdb
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Core.dll
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Core.pdb
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.csproj.AssemblyReference.cache
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.AssemblyInfoInputs.cache
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.AssemblyInfo.cs
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.csproj.CoreCompileInputs.cache
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerc.AF4C100A.Up2Date
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.dll
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\refint\ECommerce.Entity.dll
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.pdb
+C:\Users\burak.aytekin\Desktop\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ref\ECommerce.Entity.dll
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Entity.deps.json
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Entity.dll
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Entity.pdb
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Core.dll
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Core.pdb
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.csproj.AssemblyReference.cache
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.AssemblyInfoInputs.cache
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.AssemblyInfo.cs
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.csproj.CoreCompileInputs.cache
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerc.AF4C100A.Up2Date
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.dll
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\refint\ECommerce.Entity.dll
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.pdb
+C:\Users\burak.aytekin\Desktop\YENİ PROJE\Ecommerce.API 1\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ref\ECommerce.Entity.dll
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Entity.deps.json
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Entity.dll
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Entity.pdb
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Core.dll
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\bin\Debug\net8.0\ECommerce.Core.pdb
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.csproj.AssemblyReference.cache
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.AssemblyInfoInputs.cache
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.AssemblyInfo.cs
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.csproj.CoreCompileInputs.cache
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerc.AF4C100A.Up2Date
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.dll
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\refint\ECommerce.Entity.dll
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ECommerce.Entity.pdb
+C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Entity\obj\Debug\net8.0\ref\ECommerce.Entity.dll
