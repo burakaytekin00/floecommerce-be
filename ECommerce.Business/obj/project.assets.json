@@ -2741,23 +2741,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\burak.aytekin\\.nuget\\packages\\": {},
+    "C:\\Users\\ahmet.gokdemir\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\burak.aytekin\\Desktop\\Staj-Proje\\Ecommerce.API\\ECommerce.Business\\ECommerce.Business.csproj",
+      "projectUniqueName": "C:\\Users\\ahmet.gokdemir\\Desktop\\Burak-Proje\\floecommerce-be\\ECommerce.Business\\ECommerce.Business.csproj",
       "projectName": "ECommerce.Business",
-      "projectPath": "C:\\Users\\burak.aytekin\\Desktop\\Staj-Proje\\Ecommerce.API\\ECommerce.Business\\ECommerce.Business.csproj",
-      "packagesPath": "C:\\Users\\burak.aytekin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\burak.aytekin\\Desktop\\Staj-Proje\\Ecommerce.API\\ECommerce.Business\\obj\\",
+      "projectPath": "C:\\Users\\ahmet.gokdemir\\Desktop\\Burak-Proje\\floecommerce-be\\ECommerce.Business\\ECommerce.Business.csproj",
+      "packagesPath": "C:\\Users\\ahmet.gokdemir\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ahmet.gokdemir\\Desktop\\Burak-Proje\\floecommerce-be\\ECommerce.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\burak.aytekin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ahmet.gokdemir\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2766,24 +2766,23 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\burak.aytekin\\Desktop\\Staj-Proje\\Ecommerce.API\\ECommerce.Core\\ECommerce.Core.csproj": {
-              "projectPath": "C:\\Users\\burak.aytekin\\Desktop\\Staj-Proje\\Ecommerce.API\\ECommerce.Core\\ECommerce.Core.csproj"
+            "C:\\Users\\ahmet.gokdemir\\Desktop\\Burak-Proje\\floecommerce-be\\ECommerce.Core\\ECommerce.Core.csproj": {
+              "projectPath": "C:\\Users\\ahmet.gokdemir\\Desktop\\Burak-Proje\\floecommerce-be\\ECommerce.Core\\ECommerce.Core.csproj"
             },
-            "C:\\Users\\burak.aytekin\\Desktop\\Staj-Proje\\Ecommerce.API\\ECommerce.Data\\ECommerce.Data.csproj": {
-              "projectPath": "C:\\Users\\burak.aytekin\\Desktop\\Staj-Proje\\Ecommerce.API\\ECommerce.Data\\ECommerce.Data.csproj"
+            "C:\\Users\\ahmet.gokdemir\\Desktop\\Burak-Proje\\floecommerce-be\\ECommerce.Data\\ECommerce.Data.csproj": {
+              "projectPath": "C:\\Users\\ahmet.gokdemir\\Desktop\\Burak-Proje\\floecommerce-be\\ECommerce.Data\\ECommerce.Data.csproj"
             },
-            "C:\\Users\\burak.aytekin\\Desktop\\Staj-Proje\\Ecommerce.API\\ECommerce.Entity\\ECommerce.Entity.csproj": {
-              "projectPath": "C:\\Users\\burak.aytekin\\Desktop\\Staj-Proje\\Ecommerce.API\\ECommerce.Entity\\ECommerce.Entity.csproj"
+            "C:\\Users\\ahmet.gokdemir\\Desktop\\Burak-Proje\\floecommerce-be\\ECommerce.Entity\\ECommerce.Entity.csproj": {
+              "projectPath": "C:\\Users\\ahmet.gokdemir\\Desktop\\Burak-Proje\\floecommerce-be\\ECommerce.Entity\\ECommerce.Entity.csproj"
             },
-            "C:\\Users\\burak.aytekin\\Desktop\\Staj-Proje\\Ecommerce.API\\ECommerce.Repository\\ECommerce.Repository.csproj": {
-              "projectPath": "C:\\Users\\burak.aytekin\\Desktop\\Staj-Proje\\Ecommerce.API\\ECommerce.Repository\\ECommerce.Repository.csproj"
+            "C:\\Users\\ahmet.gokdemir\\Desktop\\Burak-Proje\\floecommerce-be\\ECommerce.Repository\\ECommerce.Repository.csproj": {
+              "projectPath": "C:\\Users\\ahmet.gokdemir\\Desktop\\Burak-Proje\\floecommerce-be\\ECommerce.Repository\\ECommerce.Repository.csproj"
             }
           }
         }
@@ -2818,7 +2817,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

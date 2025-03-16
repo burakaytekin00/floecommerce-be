@@ -559,10 +559,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
         },
         "runtime": {
-          "ECommerce.Core.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ECommerce.Core.dll": {}
         }
       },
       "ECommerce.Data/1.0.0": {
@@ -573,10 +570,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
         },
         "runtime": {
-          "ECommerce.Data.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ECommerce.Data.dll": {}
         }
       },
       "ECommerce.Entity/1.0.0": {
@@ -584,10 +578,7 @@
           "ECommerce.Core": "1.0.0"
         },
         "runtime": {
-          "ECommerce.Entity.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ECommerce.Entity.dll": {}
         }
       }
     }

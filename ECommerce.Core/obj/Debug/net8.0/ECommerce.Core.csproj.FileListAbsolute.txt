@@ -46,3 +46,16 @@ C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Core\obj\Debug
 C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Core\obj\Debug\net8.0\refint\ECommerce.Core.dll
 C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Core\obj\Debug\net8.0\ECommerce.Core.pdb
 C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Core\obj\Debug\net8.0\ref\ECommerce.Core.dll
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\obj\Debug\net8.0\ECommerce.Core.csproj.AssemblyReference.cache
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\obj\Debug\net8.0\ECommerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\obj\Debug\net8.0\ECommerce.Core.AssemblyInfoInputs.cache
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\obj\Debug\net8.0\ECommerce.Core.AssemblyInfo.cs
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\obj\Debug\net8.0\ECommerce.Core.csproj.CoreCompileInputs.cache
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\obj\Debug\net8.0\ECommerce.Core.sourcelink.json
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\obj\Debug\net8.0\ECommerce.Core.dll
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\obj\Debug\net8.0\refint\ECommerce.Core.dll
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\obj\Debug\net8.0\ECommerce.Core.pdb
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\bin\Debug\net8.0\ECommerce.Core.deps.json
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\bin\Debug\net8.0\ECommerce.Core.dll
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\bin\Debug\net8.0\ECommerce.Core.pdb
+C:\Users\ahmet.gokdemir\Desktop\Burak-Proje\floecommerce-be\ECommerce.Core\obj\Debug\net8.0\ref\ECommerce.Core.dll

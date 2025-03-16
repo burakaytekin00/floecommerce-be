@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qJV9SfS0Mgo=",
+  "dgSpecHash": "2OioDGPpP5QumryaBy3p5QP4J/SXkEOXFu/NFKkw6f0yPbNwoLGVU6qjgd7j4WK2UQ0CkOiiR+0bN91dE2S0Kg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak.aytekin\\Desktop\\Staj-Proje\\Ecommerce.API\\ECommerce.Core\\ECommerce.Core.csproj",
+  "projectFilePath": "C:\\Users\\ahmet.gokdemir\\Desktop\\Burak-Proje\\floecommerce-be\\ECommerce.Core\\ECommerce.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\burak.aytekin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\burak.aytekin\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\ahmet.gokdemir\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ahmet.gokdemir\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }
