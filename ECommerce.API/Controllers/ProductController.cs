@@ -42,12 +42,9 @@ namespace ECommerce.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = response.Data.Id }, response);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult Update(int id, [FromBody] ProductDto productDto)
+        [HttpPost("Update")]
+        public IActionResult Update([FromBody] ProductDto productDto)
         {
-            if (id != productDto.Id)
-                return BadRequest();
-
             var response = _productService.Update(productDto);
             if (!response.IsSuccess)
                 return NotFound(response);

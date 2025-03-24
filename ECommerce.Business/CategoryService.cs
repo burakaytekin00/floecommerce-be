@@ -76,7 +76,7 @@ namespace ECommerce.Business
                 var existingCategory = _unitOfWork.GetRepository<Category>()
                 .Find(x => x.Name == categoryDto.Name);
 
-                if (existingCategory != null)
+                if (existingCategory.Count() > 0)
                 {
                     var response = new ApiResponse<CategoryDto>
                     {
