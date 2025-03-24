@@ -73,6 +73,19 @@ namespace ECommerce.Business
         {
             try
             {
+                var existingCategory = _unitOfWork.GetRepository<Category>()
+                .Find(x => x.Name == categoryDto.Name);
+
+                if (existingCategory != null)
+                {
+                    var response = new ApiResponse<CategoryDto>
+                    {
+                        IsSuccess = false,
+                        Message = "Bu kategori zaten mevcut."
+                    };
+                    return response;
+                }
+
                 var category = new Category
                 {
                     Name = categoryDto.Name,
@@ -93,11 +106,11 @@ namespace ECommerce.Business
                     IsDeleted = category.IsDeleted
                 };
 
-                return ApiResponse<CategoryDto>.Success(result, "Category successfully added");
+                return ApiResponse<CategoryDto>.Success(result, "Kategori başarıyla eklendi.");
             }
             catch (Exception ex)
             {
-                return ApiResponse<CategoryDto>.Fail(ex.Message);
+                return ApiResponse<CategoryDto>.Fail($"Bir hata oluştu: {ex.Message}");
             }
         }
 

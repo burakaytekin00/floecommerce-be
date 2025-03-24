@@ -20,7 +20,7 @@ namespace ECommerce.API.Controllers
             _categoryService = categoryService;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public IActionResult GetAll()
         {
             var response = _categoryService.GetAllCategories();
@@ -47,20 +47,17 @@ namespace ECommerce.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = response.Data.Id }, response);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult Update(int id, [FromBody] CategoryDto categoryDto)
+        [HttpPost("Update")]
+        public IActionResult Update([FromBody] CategoryDto categoryDto)
         {
-            if (id != categoryDto.Id)
-                return BadRequest();
-
             var response = _categoryService.UpdateCategory(categoryDto);
             if (!response.IsSuccess)
                 return NotFound(response);
             return Ok(response);
         }
 
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        [HttpPost("Delete")]
+        public IActionResult Delete([FromQuery] int id)
         {
             var response = _categoryService.DeleteCategory(id);
             if (!response.IsSuccess)

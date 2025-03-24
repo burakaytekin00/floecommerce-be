@@ -15,7 +15,7 @@ namespace ECommerce.API.Controllers
             _productService = productService;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public IActionResult GetAll()
         {
             var response = _productService.GetAll();

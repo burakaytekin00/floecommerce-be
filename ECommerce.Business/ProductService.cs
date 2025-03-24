@@ -21,11 +21,13 @@ namespace ECommerce.Business
             {
                 var products = _unitOfWork.GetRepository<Product>()
                     .GetAll()
+                    .Include(x => x.Category)
                     .Where(x => !x.IsDeleted && x.IsActive)
                     .Select(p => new ProductDto
                     {
                         Id = p.Id,
                         CategoryId = p.CategoryId,
+                        CategoryName = p.Category.Name,
                         Name = p.Name,
                         Description = p.Description,
                         PhotoUrl = p.PhotoUrl,
