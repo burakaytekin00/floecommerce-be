@@ -6,6 +6,7 @@ namespace ECommerce.Business
     public interface IProductService
     {
         ApiResponse<IEnumerable<ProductDto>> GetAll();
+        ApiResponse<IEnumerable<ProductDto>> GetAllByFilter(int categoryId);
         ApiResponse<ProductDto> GetById(int id);
         ApiResponse<ProductDto> Add(ProductDto productDto);
         ApiResponse<ProductDto> Update(ProductDto productDto);

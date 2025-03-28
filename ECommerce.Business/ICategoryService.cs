@@ -11,5 +11,6 @@ namespace ECommerce.Business
         ApiResponse<CategoryDto> UpdateCategory(CategoryDto categoryDto);
         ApiResponse<bool> DeleteCategory(int id);
         ApiResponse<bool> SetCategoryStatus(int id, bool isActive);
+        object GetProductsByCategory(int categoryId);
     }
 }

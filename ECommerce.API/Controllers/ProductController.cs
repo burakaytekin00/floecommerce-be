@@ -24,6 +24,15 @@ namespace ECommerce.API.Controllers
             return Ok(response);
         }
 
+        [HttpGet("GetAllByFilter")]
+        public IActionResult GetAllByFilter(int categoryId)
+        {
+            var response = _productService.GetAllByFilter(categoryId);
+            if (!response.IsSuccess)
+                return BadRequest(response);
+            return Ok(response);
+        }
+
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -51,7 +60,7 @@ namespace ECommerce.API.Controllers
             return Ok(response);
         }
 
-        [HttpDelete("{id}")]
+        [HttpPost("Delete")]
         public IActionResult Delete(int id)
         {
             var response = _productService.Delete(id);

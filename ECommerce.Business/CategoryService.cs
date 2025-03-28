@@ -191,5 +191,10 @@ namespace ECommerce.Business
                 return ApiResponse<bool>.Fail(ex.Message);
             }
         }
+
+        public object GetProductsByCategory(int categoryId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

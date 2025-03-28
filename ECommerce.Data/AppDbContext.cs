@@ -10,6 +10,10 @@ namespace ECommerce.Data
     {
         private readonly IConfiguration _configuration;
 
+        public AppDbContext()
+        {
+        }
+
         public AppDbContext(DbContextOptions<AppDbContext> options, IConfiguration configuration)
             : base(options)
         {

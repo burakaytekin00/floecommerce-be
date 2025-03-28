@@ -46,6 +46,39 @@ namespace ECommerce.Business
             }
         }
 
+        public ApiResponse<IEnumerable<ProductDto>> GetAllByFilter(int categoryId)
+        {
+            try
+            {
+                var products = _unitOfWork.GetRepository<Product>()
+                    .GetAll()
+                    .Include(x => x.Category)
+                    .Where(x => !x.IsDeleted && x.IsActive && x.CategoryId == categoryId)
+                    .Select(p => new ProductDto
+                    {
+                        Id = p.Id,
+                        CategoryId = p.CategoryId,
+                        CategoryName = p.Category.Name,
+                        Name = p.Name,
+                        Description = p.Description,
+                        PhotoUrl = p.PhotoUrl,
+                        Price = p.Price,
+                        CreatedDate = p.CreatedDate,
+                        UpdatedDate = p.UpdatedDate,
+                        IsActive = p.IsActive,
+                        IsDeleted = p.IsDeleted
+                    });
+
+                return ApiResponse<IEnumerable<ProductDto>>.Success(products);
+            }
+            catch (Exception ex)
+            {
+                return ApiResponse<IEnumerable<ProductDto>>.Fail(ex.Message);
+            }
+
+        }
+
+
         public ApiResponse<ProductDto> GetById(int id)
         {
             try
