@@ -2,6 +2,7 @@
 using ECommerce.Entity.DTOs;
 using ECommerce.Repository;
 using ECommerce.Core.Result;
+using ECommerce.Business.Abstract;
 using Microsoft.EntityFrameworkCore;
 
 namespace ECommerce.Business
@@ -46,28 +47,39 @@ namespace ECommerce.Business
             }
         }
 
-        public ApiResponse<IEnumerable<ProductDto>> GetAllByFilter(int categoryId)
+        public ApiResponse<IEnumerable<ProductDto>> GetAllByFilter(ProductFilterDto filter)
         {
             try
             {
-                var products = _unitOfWork.GetRepository<Product>()
+                var query = _unitOfWork.GetRepository<Product>()
                     .GetAll()
                     .Include(x => x.Category)
-                    .Where(x => !x.IsDeleted && x.IsActive && x.CategoryId == categoryId)
-                    .Select(p => new ProductDto
-                    {
-                        Id = p.Id,
-                        CategoryId = p.CategoryId,
-                        CategoryName = p.Category.Name,
-                        Name = p.Name,
-                        Description = p.Description,
-                        PhotoUrl = p.PhotoUrl,
-                        Price = p.Price,
-                        CreatedDate = p.CreatedDate,
-                        UpdatedDate = p.UpdatedDate,
-                        IsActive = p.IsActive,
-                        IsDeleted = p.IsDeleted
-                    });
+                    .Where(x => !x.IsDeleted && x.IsActive);
+
+                if (filter.CategoryId.HasValue)
+                {
+                    query = query.Where(x => x.CategoryId == filter.CategoryId.Value);
+                }
+
+                if (!string.IsNullOrEmpty(filter.SearchText))
+                {
+                    query = query.Where(x => x.Name.Contains(filter.SearchText) || x.Description.Contains(filter.SearchText));
+                }
+
+                var products = query.Select(p => new ProductDto
+                {
+                    Id = p.Id,
+                    CategoryId = p.CategoryId,
+                    CategoryName = p.Category.Name,
+                    Name = p.Name,
+                    Description = p.Description,
+                    PhotoUrl = p.PhotoUrl,
+                    Price = p.Price,
+                    CreatedDate = p.CreatedDate,
+                    UpdatedDate = p.UpdatedDate,
+                    IsActive = p.IsActive,
+                    IsDeleted = p.IsDeleted
+                });
 
                 return ApiResponse<IEnumerable<ProductDto>>.Success(products);
             }
@@ -75,9 +87,7 @@ namespace ECommerce.Business
             {
                 return ApiResponse<IEnumerable<ProductDto>>.Fail(ex.Message);
             }
-
         }
-
 
         public ApiResponse<ProductDto> GetById(int id)
         {

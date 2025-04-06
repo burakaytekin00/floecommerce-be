@@ -1,12 +1,12 @@
 ﻿using ECommerce.Core.Result;
 using ECommerce.Entity.DTOs;
 
-namespace ECommerce.Business
+namespace ECommerce.Business.Abstract
 {
     public interface IProductService
     {
         ApiResponse<IEnumerable<ProductDto>> GetAll();
-        ApiResponse<IEnumerable<ProductDto>> GetAllByFilter(int categoryId);
+        ApiResponse<IEnumerable<ProductDto>> GetAllByFilter(ProductFilterDto filter);
         ApiResponse<ProductDto> GetById(int id);
         ApiResponse<ProductDto> Add(ProductDto productDto);
         ApiResponse<ProductDto> Update(ProductDto productDto);

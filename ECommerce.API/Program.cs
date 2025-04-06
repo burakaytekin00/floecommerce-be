@@ -1,3 +1,4 @@
+using ECommerce.Business.Abstract;
 using ECommerce.Business;
 using ECommerce.Data;
 using ECommerce.Repository;
@@ -18,10 +19,10 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUserTypeService, UserTypeService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(RepositoryBase<>));
 builder.Services.AddScoped<PasswordHasher>();
-builder.Services.AddScoped<ILoginService, LoginService>();
 
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 

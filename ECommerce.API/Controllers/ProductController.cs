@@ -1,4 +1,4 @@
-﻿using ECommerce.Business;
+﻿using ECommerce.Business.Abstract;
 using ECommerce.Entity.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,10 +24,10 @@ namespace ECommerce.API.Controllers
             return Ok(response);
         }
 
-        [HttpGet("GetAllByFilter")]
-        public IActionResult GetAllByFilter(int categoryId)
+        [HttpPost("GetAllByFilter")]
+        public IActionResult GetAllByFilter([FromBody] ProductFilterDto filter)
         {
-            var response = _productService.GetAllByFilter(categoryId);
+            var response = _productService.GetAllByFilter(filter);
             if (!response.IsSuccess)
                 return BadRequest(response);
             return Ok(response);

@@ -1,7 +1,7 @@
 using ECommerce.Core.Result;
 using ECommerce.Entity.DTOs;
 
-namespace ECommerce.Business
+namespace ECommerce.Business.Abstract
 {
     public interface IUserService
     {

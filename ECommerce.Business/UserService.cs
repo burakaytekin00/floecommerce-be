@@ -3,6 +3,7 @@ using ECommerce.Core.Result;
 using ECommerce.Entity;
 using ECommerce.Entity.DTOs;
 using ECommerce.Repository;
+using ECommerce.Business.Abstract;
 using Microsoft.EntityFrameworkCore;
 
 namespace ECommerce.Business
