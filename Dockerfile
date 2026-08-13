@@ -1,25 +1,21 @@
-# --- BUILD ---
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# Çözüm dosyasını ve projeleri doğrudan kopyala
+COPY ECommerce.API.sln ./
+COPY ECommerce.API/ECommerce.API.csproj ECommerce.API/
+COPY ECommerce.Business/ECommerce.Business.csproj ECommerce.Business/
+COPY ECommerce.Core/ECommerce.Core.csproj ECommerce.Core/
+COPY ECommerce.Data/ECommerce.Data.csproj ECommerce.Data/
+COPY ECommerce.Entity/ECommerce.Entity.csproj ECommerce.Entity/
+COPY ECommerce.Repository/ECommerce.Repository.csproj ECommerce.Repository/
+
+RUN dotnet restore ECommerce.API.sln
+
+COPY . .
+RUN dotnet publish ECommerce.API/ECommerce.API.csproj -c Release -o /app/publish
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
-
-# Çözüm dosyasını ve projeleri kopyala
-COPY *.sln ./
-COPY ECommerce.API/*.csproj ECommerce.API/
-COPY ECommerce.Business/*.csproj ECommerce.Business/
-COPY ECommerce.Core/*.csproj ECommerce.Core/
-COPY ECommerce.Data/*.csproj ECommerce.Data/
-COPY ECommerce.Entity/*.csproj ECommerce.Entity/
-COPY ECommerce.Repository/*.csproj ECommerce.Repository/
-
-# Restore et
-RUN dotnet restore
-
-# Kalan tüm dosyaları kopyala ve yayınla (publish)
-COPY . ./
-RUN dotnet publish ECommerce.API/ECommerce.API.csproj -c Release -o out
-
-# --- RUNTIME ---
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
-WORKDIR /app
-COPY --from=build /app/out .
+COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "ECommerce.API.dll"]
