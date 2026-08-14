@@ -74,3 +74,6 @@ C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Data\obj\Debug
 C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.pdb
 C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.genruntimeconfig.cache
 C:\Users\burak.aytekin\Desktop\Staj-Proje\Ecommerce.API\ECommerce.Data\obj\Debug\net8.0\ref\ECommerce.Data.dll
+C:\Users\user\OneDrive\Masaüstü\floecommerce-be\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.dll
+C:\Users\user\OneDrive\Masaüstü\floecommerce-be\ECommerce.Data\obj\Debug\net8.0\refint\ECommerce.Data.dll
+C:\Users\user\OneDrive\Masaüstü\floecommerce-be\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.pdb
